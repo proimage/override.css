@@ -1,0 +1,28 @@
+#navigationTabs > .parent > a.first_level:after,
+#navigationTabs > .parent:focus > a.first_level:after,
+#navigationTabs > .parent.active > a.first_level:after {
+  content: " \25e2";
+	font-size: 0.6em;
+	border: none;
+	display: inline;
+	margin: 0;
+	top: inherit;
+}
+
+#navigationTabs > .parent:focus > ul:before,
+#navigationTabs > .parent.active > ul:before {
+	border-bottom: 5px solid #E6ECEF;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	content: " ";
+	display: block;
+	height: 0;
+	margin: 0 auto 0 2em;
+	position: relative;
+	top: -13px;
+	width: 0;
+}
+
+#navigationTabs li ul {
+	margin-top: -6px;
+}
