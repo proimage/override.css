@@ -1,3 +1,4 @@
+/* NAV DROPDOWN MENU INDICATORS */
 #navigationTabs > .parent > a.first_level:after,
 #navigationTabs > .parent:focus > a.first_level:after,
 #navigationTabs > .parent.active > a.first_level:after {
@@ -25,4 +26,13 @@
 
 #navigationTabs li ul {
 	margin-top: -6px;
+}
+
+/* SUBMIT BUTTON MOUSEOVER EFFECT */
+.submit:hover
+{
+	text-shadow: 0 0 3px white;
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,0.3);
+	box-shadow: 0 0 3px rgba(0,0,0,0.3);
 }
