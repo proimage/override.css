@@ -1,4 +1,6 @@
-/* NAV DROPDOWN MENU INDICATORS */
+/*
+ * Nav dropdown menu indicators
+ */
 #navigationTabs > .parent > a.first_level:after,
 #navigationTabs > .parent:focus > a.first_level:after,
 #navigationTabs > .parent.active > a.first_level:after {
@@ -28,7 +30,9 @@
 	margin-top: -6px;
 }
 
-/* SUBMIT BUTTON MOUSEOVER EFFECT */
+/*
+ * Submit button mouseover effect
+ */
 .submit:hover
 {
 	text-shadow: 0 0 3px white;
@@ -36,3 +40,12 @@
 	-moz-box-shadow: 0 0 3px rgba(0,0,0,0.3);
 	box-shadow: 0 0 3px rgba(0,0,0,0.3);
 }
+
+/*
+ * THIRD-PARTY ADD-ON ISSUES
+ */
+
+/*
+ * Remove max-width restriction on the Template Variable accessory's Custom Fields table.
+ */
+#template_variables .accessorySection .customFieldTable { max-width: none; }
